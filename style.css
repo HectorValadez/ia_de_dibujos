@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+    background-image:url(Lago-Moraine-Parque-Nacional-Banff-Alberta-Canada.jpg) ;
+    background-size: cover;
+    
+}
+#seraonosera{
+    color: red;
+}
+#colores div{
+    width: 40px;
+    height: 40px;
+    margin:auto 0;
+}
+#colores{
+    position: fixed;
+    bottom:28%;
+    top:28%;
+}
+#dibuja{
+    position: fixed;
+    top:10%;
+    right: 20%;
+}
+button{
+    background-color: unset;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#segundero {
+    position: fixed;
+    top:10%;
+    left :20%
+}
+#copapiston{
+    position: fixed;
+    top:28%;
+    width: 40%;
+    left: 30%;
+    display: none;
+}

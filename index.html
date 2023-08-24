@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="shortcut icon" href="cheems.jpg_large" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawgpt</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+</head>
+<body>
+    <h1>Drawgpt</h1>
+    <kbd>dibuja lo que se te indica</kbd>
+    <br>
+    <br>
+    <script src="main.js"></script>
+    <button onclick="borrar()">Borrar</button>
+    <button onclick="guardar()">la quinta maravila</button>
+    <br>
+    <div id="zazil"></div>
+    <h2 id="seraonosera">s</h2>
+    <div id="colores">
+        <div style="background-color: blue;" onclick="eligir_color(1)"></div>
+        <div style="background-color: red;" onclick="eligir_color(2)"></div>
+        <div style="background-color: yellow;" onclick="eligir_color(3)"></div>
+        <div style="background-color: black;" onclick="eligir_color(4)"></div>
+    </div>
+    <div id="dibuja">
+        <h2 id="ruleta_rusa"></h2>
+        <button onclick="sabio()">comenzar juego</button>
+        <br>
+        <h3 id="marcador">0 puntos</h3>
+    </div>
+    <h2 id="segundero">30 segundos</h2>
+    <img src="Webp.net-gifmaker (5).gif" id="copapiston">
+</body>
+</html>
