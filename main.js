@@ -86,7 +86,7 @@ function critico_gpt() {
         document.getElementById("marcador").innerHTML = puntos + " puntos"
         sabio()
         tiempo=31
-        if (puntos==1) {
+        if (puntos==10) {
             document.getElementById("copapiston").style.display="block"
             espacioytiempo=false
             clearInterval(alarma)
